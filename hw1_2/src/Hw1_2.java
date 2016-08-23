@@ -7,6 +7,11 @@ public class Hw1_2 {
         /**
          * your code here
          */
+        int sum=0,gpa=0;
+        for(int i=0;i<credit.length;i++)
+        {
+
+        }
         return 0.0f;
     }
 
