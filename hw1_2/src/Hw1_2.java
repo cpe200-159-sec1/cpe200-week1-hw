@@ -12,10 +12,10 @@ public class Hw1_2 {
             alc+=credit[i];
         }
         Gpa/=alc;
-        
+
         return Gpa;
     }
-
+    //test up
     public static void main(String[] args) {
         int[] credit = {3, 3, 3, 3, 2};
         int[] grade  = {2, 4, 4, 3, 2};
