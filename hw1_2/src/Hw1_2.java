@@ -2,12 +2,22 @@
  * Created by pruet on 11/8/2559.
  */
 public class Hw1_2 {
-    float gpaCalculation(int[] credit, int[] grade)
-    {
-        /**
-         * your code here
-         */
-        return 0.0f;
+    float gpaCalculation(int[] credit, int[] grade) {
+        float GPAcal ;
+        float Sum = 0 ;
+        float Sumsum =0 ;
+
+
+        for(int i=0 ;i<grade.length ;i++) {
+            Sum =Sum+ (credit[i] * grade[i]);
+            Sumsum = Sumsum+credit[i];
+        }
+
+
+             GPAcal = Sum/Sumsum ;
+
+        return GPAcal;
+
     }
 
     public static void main(String[] args) {
