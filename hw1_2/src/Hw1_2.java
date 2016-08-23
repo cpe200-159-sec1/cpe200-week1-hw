@@ -8,6 +8,7 @@ public class Hw1_2 {
         float sum1 = 0;
         float sum2 = 0;
         for (int i=0; i<credit.length; i++) {
+
                 sum1= sum1+(credit[i] * grade[i]);
                 sum2= sum2+credit[i];
                 GPA=sum1/sum2;

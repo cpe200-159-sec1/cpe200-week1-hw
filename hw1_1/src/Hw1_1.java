@@ -10,6 +10,7 @@ public class Hw1_1 {
                 count++;
         }
         return count;
+
     }
 
 
