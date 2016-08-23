@@ -12,6 +12,7 @@ public class Hw1_2 {
             alc+=credit[i];
         }
         Gpa/=alc;
+        
         return Gpa;
     }
 
