@@ -2,13 +2,21 @@
  * Created by pruet on 11/8/2559.
  */
 public class Hw1_2 {
+
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+        float marks=0.0f;
+        int allcredit=0;
+        for(int i=0;i<credit.length;i++)
+        {
+            marks+=credit[i]*grade[i];
+            allcredit+=credit[i];
+
+        }
+
+        return marks/allcredit;
     }
+
 
     public static void main(String[] args) {
         int[] credit = {3, 3, 3, 3, 2};
