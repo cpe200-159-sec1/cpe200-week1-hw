@@ -4,7 +4,10 @@
 public class Hw1_1 {
     public int countEvenNum(int[] inputs)
     {
-        https://github.com/phusitkrittikarak/cpe200-week1-hw/commit/master
+        int count=0;
+        for(int i=0;i<inputs.length;i++){
+            if(inputs[i]%2==0)count++;
+        }return count;
     }
 
 
