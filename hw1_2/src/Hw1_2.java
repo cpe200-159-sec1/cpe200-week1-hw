@@ -7,12 +7,13 @@ public class Hw1_2 {
         /**
          * your code here
          */
-        int sum=0,gpa=0;
+        float sum=0,gpa=0;
         for(int i=0;i<credit.length;i++)
         {
-
+            gpa+=credit[i]*grade[i];
+            sum+=credit[i];
         }
-        return 0.0f;
+        return gpa/sum;
     }
 
     public static void main(String[] args) {
