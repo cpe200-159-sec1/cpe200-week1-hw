@@ -7,6 +7,7 @@ public class Hw1_2 {
         /**
          * your code here
          */
+
         return 0.0f;
     }
 
