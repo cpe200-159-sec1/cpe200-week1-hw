@@ -4,10 +4,20 @@
 public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+        if (credit.length != grade.length)
+            throw new IllegalArgumentException("Invalid credit or grade");
+
+        float point = 0.0f;
+        int credits = 0;
+
+        for (int i = 0; i < credit.length; i++) {
+            credits += credit[i];
+            point += grade[i] * credit[i];
+        }
+
+        float gpa = point / credits;
+
+        return gpa;
     }
 
     public static void main(String[] args) {
