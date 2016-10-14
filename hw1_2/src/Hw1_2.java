@@ -4,10 +4,20 @@
 public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+
+        float GPA,TTGrade = 0 ,TTCredit =0 ;
+
+
+
+        for(int i=0 ;i<grade.length ;i++) {
+            TTGrade += (credit[i] * grade[i]);
+            TTCredit += credit[i];
+        }
+
+
+        GPA = TTGrade/TTCredit ;
+
+        return GPA;
     }
 
     public static void main(String[] args) {
